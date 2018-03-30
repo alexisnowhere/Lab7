@@ -1,2 +1,2 @@
-# Lab7
-With fireee!
+# JSPlatformer
+JS Platformer for DIG 3480C

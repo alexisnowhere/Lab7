@@ -1,0 +1,28 @@
+.background    { background: linear-gradient(to bottom,
+                              rgb(249,249,249) 13%,rgb(191,232,249) 40%,
+                              rgb(191,232,249) 55%,rgb(159,216,239) 65%,
+                              rgb(159,216,239) 70%,rgb(42,176,237) 100%);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: linear-gradient(45deg,
+                              rgb(237,55,23) 0%,rgb(237,55,23) 28%,
+                              rgb(237,180,23) 69%,rgb(241,252,90) 100%);}
+.wall          { background: rgb(66, 63, 61);   }
+.floater       { background: rgb(221, 217, 215); }
+
+
+.actor  { position: absolute;  }
+.player { background: url("https://image.ibb.co/cZ6GEc/egg.png");
+          background-repeat: no-repeat;
+          background-position: center bottom;
+                }
+.fire {background: url("https://image.ibb.co/hfkyN7/Fireeee.png");
+}
+.coin {background-color: yellow;}
+.game {
+  overflow: hidden;
+  max-width: 750px;
+  max-height: 600px;
+  position: relative;
+}
